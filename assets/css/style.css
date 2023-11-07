@@ -4,15 +4,39 @@
   margin: 0%;
 }
 h2,p{
-  color: rgb(4, 159, 187);
+  color: #1d1c7a;
+}
+.navbarLogoBusca {
+  background-color:  #1d1c7a;
+  display: flex;
+  flex-direction: row;
+  width: 100%
+}
+.logoMain {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logoMain img {
+  width: 2rem;
+  height: 1rem;
+  align-items: flex-end;
+}
+
+.mainSearch{
+  display: flex;
+  flex-direction: row;
+}
+
+.mainSearch input{
+  border-radius: 25%
 }
 
 body {
-  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100vw 80vh;
-  opacity: 0.92;
   position: relative;
 }
 h2 {
@@ -24,7 +48,6 @@ h1 {
   color: rgb(221, 10, 10);
 }
 
-
 form {
   display: flex;
   flex-direction: column;
@@ -34,7 +57,7 @@ form {
   border-radius: 2rem;
   box-shadow: 0.1rem 0.1rem;
   padding: 1.5rem;
-  background-color: #1d1c7a;
+  background-color: #87CEEB;
   text-align: center;
   justify-content: center;
   align-items: center;
@@ -102,10 +125,12 @@ form input:not(input[type="checkbox"]) {
 
 .upperIcons {
   display: flex;
+  Widht: 50rem;
+  height: 3rem;
   align-items: flex-end;
   justify-content: end;
   text-align: center;
-  background-color: rgb(#1d1c7a);
+  background-color:  #1d1c7a;
 }
 
 .upperIcons img {
@@ -129,7 +154,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(255, 255, 255);
+  color:#1d1c7a;
   text-decoration: none;
 }
 
@@ -149,7 +174,7 @@ a:active {
 
 .title img{
   width: 50%;
-  height: 13rem;
+  height: 10rem;
 }
 
 .subTitle {
@@ -204,7 +229,7 @@ a:active {
 
 .cards {
   display: grid;
-  grid-gap: 0 100px;
+  grid-gap: 0 50px;
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   justify-content: center;
@@ -232,11 +257,11 @@ a:active {
   width: 20rem;
   height: auto;
   margin: 1rem;
-  border: 0.1rem solid #363e42;
+  border: 0.1rem solid ;
   border-radius: 2rem;
   box-shadow: 10px 10px 50px 5px rgb(55, 55, 55);
   padding: 1rem;
-  background-color: rgb(255, 239, 239);
+  background-color: #ffff;
 }
 
 .card:hover {
@@ -337,4 +362,43 @@ a:active {
   .about div {
     width: 15rem;
   }
+
+}
+
+/* Estilos para o formulário de pesquisa na barra de navegação */
+.navbar form {
+  margin-left: auto; /* Alinhar o formulário à direita */
+  display: flex;
+  flex-direction: column;
+  width: 10rem;
+  height: 3rem
+  margin: auto;
+  border: 0.1rem solid rgb(255, 255, 255);
+  border-radius: 1rem;
+  box-shadow: 0.1rem 0.1rem;
+  padding: 1.5rem;
+  background-color: #FF00FF;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}/* Alinhar itens horizontalmente */
+}
+
+/* Estilos para a caixa de pesquisa */
+.navbar input[type="search"] {
+  width: 150px;
+  height: 3rem /* Largura da caixa de pesquisa */
+  padding: 5px; /* Espaçamento interno da caixa de pesquisa */
+  border: none; /* Remover a borda da caixa de pesquisa */
+  border-radius: 5px; /* Adicionar cantos arredondados */
+}
+
+/* Estilos para o botão de pesquisa */
+.navbar button[type="submit"] {
+  background-color:  #ff7714; /* Cor de fundo do botão de pesquisa */
+  color: #fff; /* Cor do texto do botão de pesquisa */
+  border: none; /* Remover a borda do botão de pesquisa */
+  padding: 5px 10px; /* Espaçamento interno do botão de pesquisa */
+  border-radius: 5px; /* Adicionar cantos arredondados ao botão */
+  cursor: pointer; /* Mostrar cursor de mão ao passar o mouse */ 
 }
