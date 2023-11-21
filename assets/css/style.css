@@ -203,10 +203,12 @@
   text-decoration: none; /* Remove underline on hover */
 }
 
-/* Change the color of the active navbar link */
-/* .navbar-custom .navbar-nav .nav-item.active .nav-link .nav-link.active{
-  color: green; /* Active text color */
-/* }  */
+.navbar-custom{
+  position: absolute;
+  z-index: 1000; /* Certifica-se de que a navbar esteja acima de outros elementos */
+  border-bottom-left-radius: 18px;
+  width: 90%;
+}
 
 /* Display dropdown menu on hover */
 .navbar-custom .nav-item.dropdown:hover .dropdown-menu {
@@ -221,6 +223,28 @@
 /* Remove the arrow from the dropdown toggle for the second dropdown */
 .navbar-custom .nav-item.dropdown:last-child .nav-link::after {
   content: none;
+}
+
+.navbar-custom a {
+  font-size: larger;
+  font-weight: bold;
+  color: #1d1c7a;
+}
+
+.navbar-custom li :hover {
+  color: #ff7714;
+}
+
+.carousel {
+  margin-top: -60.81px;
+}
+
+.carousel-control-next img{
+  transform: scale(3.00) rotate(-90deg);
+}
+
+.carousel-control-prev img{
+  transform: scale(4.00) rotate(90deg);
 }
 
 /* Li e concordo ....*/
