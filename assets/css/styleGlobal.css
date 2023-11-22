@@ -36,43 +36,6 @@
   height: auto; */
 }
 
-/* Div Main Search */
-.mainSearch {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/* Button class form controol Search */
-.mainSearch input {
-  border-top-left-radius: 19px;
-  border-bottom-left-radius: 19px;
-  border-top-right-radius: 0px;
-  border-bottom-right-radius: 0px;
-}
-
-.mainSearch button {
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
-  border-top-right-radius: 19px;
-  border-bottom-right-radius: 19px;
-  --bs-btn-color: #ff7714;
-  --bs-btn-border-color: #ff7714;
-  --bs-btn-hover-color: #fff;
-  --bs-btn-bg: #fff;
-  --bs-btn-hover-bg: #ff7714;
-  --bs-btn-hover-border-color: #ff7714;
-  --bs-btn-focus-shadow-rgb: 25, 135, 84;
-  --bs-btn-active-color: #fff;
-  --bs-btn-active-bg: #ff7714;
-  --bs-btn-active-border-color: #ff7714;
-  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
-  --bs-btn-disabled-color: #ff7714;
-  --bs-btn-disabled-bg: transparent;
-  --bs-btn-disabled-border-color: #ff7714;
-  --bs-gradient: none;
-}
-
 .bottom {
   display: flex;
   justify-content: space-between;
@@ -117,7 +80,7 @@
 }
 
 .navbar-custom {
-  background-color: #1d1c7a;
+  background-color: #17167d;
   position: absolute;
   z-index: 1000; /* Certifica-se de que a navbar esteja acima de outros elementos */
   border-bottom-left-radius: 18px;
@@ -149,6 +112,43 @@
 
 .navbar-custom li :hover {
   color: #ff7714;
+}
+
+/* Div Main Search */
+.mainSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button class form controol Search */
+.mainSearch input {
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.mainSearch button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+  --bs-btn-color: #ff7714;
+  --bs-btn-border-color: #ff7714;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-bg: #fff;
+  --bs-btn-hover-bg: #ff7714;
+  --bs-btn-hover-border-color: #ff7714;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ff7714;
+  --bs-btn-active-border-color: #ff7714;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ff7714;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ff7714;
+  --bs-gradient: none;
 }
 
 .carousel {
@@ -183,114 +183,6 @@
   margin-top: -6rem;
 }
 
-/* Div Card */
-.cards {
-  display: grid;
-  grid-gap: 10px 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  display: flex;
-  flex-direction: column;
-  font-size: 2.5rem;
-}
-/* Div class img cards */
-.cards img {
-  width: 20rem;
-  height: 10rem;
-  /* border-radius: 2rem; */
-  margin: 1rem;
-  object-fit: contain;
-}
-
-.card:hover {
-  transform: scale(1.05);
-}
-
-/* Div class "about" = Sobre Angélica texto  */
-.about {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 2rem;
-}
-
-.about div {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 40rem;
-  background-color: #1d1c7a;
-  border: 0.1rem solid rgb(255, 255, 255);
-  border-radius: 2rem;
-  box-shadow: 0.1rem 0.1rem;
-}
-
-.about img {
-  width: 10rem;
-  height: 10rem;
-  border-radius: 50%;
-  border: 0.1rem solid rgb(238, 230, 230);
-  margin: 2rem;
-}
-
-.about div p {
-  text-align: center;
-  margin: 1rem;
-  color: rgb(255, 255, 255);
-}
-/* Li e concordo ....*/
-#newsletter {
-  display: flex;
-  text-align: center;
-  margin: 1.5rem;
-}
-
-#newsletter label {
-  color: #1d1c7a;
-}
-/* Caixa formulário - NEWSLETTER */
-#newsletter form {
-  display: flex;
-  flex-direction: column;
-  width: 40rem;
-  margin: auto;
-  border: 0.1rem solid;
-  border-radius: 2rem;
-  box-shadow: 0.1rem 0.1rem;
-  padding: 1.5rem;
-  background-color: #ffff;
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-}
-
-/* Botão clicar Form Newsletter */
-#newsletter button {
-  background-color: #1d1c7a;
-  border: none;
-  color: #ffff;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  border-radius: 0.2rem;
-}
-
-#newsletter button:hover {
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-#newsletter form input:not(input[type="checkbox"]) {
-  width: 80%;
-  margin-bottom: 1rem;
-}
 
 @media (max-width: 1730px) {
   .carousel {
