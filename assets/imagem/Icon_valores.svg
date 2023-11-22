@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Valores_Informações_Úteis" data-name="Valores/Informações Úteis" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: .5px;
+      }
+    </style>
+  </defs>
+  <polygon class="cls-1" points="12.11 19.32 20.31 11.13 16.22 7.04 8.12 7.04 4.02 11.14 12.11 19.32"/>
+  <line class="cls-1" x1="4.24" y1="11.12" x2="20.08" y2="11.12"/>
+  <polyline class="cls-1" points="12.11 19.2 12.11 11.27 16.12 7.26"/>
+  <line class="cls-1" x1="12.08" y1="11.12" x2="8.1" y2="7.14"/>
+</svg>
