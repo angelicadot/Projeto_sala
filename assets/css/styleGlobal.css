@@ -79,13 +79,14 @@
   text-decoration: none; /* Remove underline on hover */
 }
 
-.navbar-custom {
+
+.navbar-custom { /* Navbar menu*/ 
   background-color: #17167d;
   position: absolute;
   z-index: 1000; /* Certifica-se de que a navbar esteja acima de outros elementos */
   border-bottom-left-radius: 18px;
   border-bottom-right-radius: 18px;
-  width: 70%;
+  width: 80%;
 }
 
 /* Display dropdown menu on hover */
