@@ -3,6 +3,8 @@
   background-image: url("../../imagem/VITRINE\ VIRTUAL\ BACKGROUND\ DEGRADE.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  width: 100%;
+  height: 100%;
   background-size: 100vw 100vh;
   /* object-fit: contain; */
 
@@ -15,7 +17,6 @@
   justify-content: center;
   /* margin-top: 60.8px; */
   padding: 100px;
-
 }
 
 /* Div Card */
@@ -32,12 +33,14 @@
   display: flex;
   flex-direction: column;
   font-size: 2.5rem;
+  --bs-card-border-color: transparent !important;
+  --bs-card-bg: transparent !important;
 }
 
 /* Div class img cards */
-.cards img {
-  width: 100%; 
-  border-radius: .385rem;
+.card img {
+  width: 100%;
+  border-radius: 0.385rem;
   margin: 0rem;
   object-fit: contain;
 }
