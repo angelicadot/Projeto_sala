@@ -1,0 +1,237 @@
+* {
+  font-family: "Montserrat", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif,
+    Times, serif;
+  margin: 0%;
+}
+
+.upperIcons {
+  display: flex;
+  width: 100%;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: end;
+  text-align: center;
+}
+
+.upperIcons img {
+  width: 1.5rem;
+  height: 1.5rem;
+  filter: saturate(100%) invert(100%) sepia(100%) hue-rotate(200deg)
+    contrast(200%);
+}
+
+.logoMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Div class Logo main */
+.logoMain img {
+  width: 20%;
+  aspect-ratio: 3/2;
+  object-fit: contain;
+  /* max-height: 300px;
+  height: auto; */
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1d1c7a;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bottomLeftSide {
+  width: 50%;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.bottomLeftSide p {
+  color: rgb(255, 255, 255);
+}
+
+.bottomRightSide {
+  display: flex;
+  text-align: right;
+  align-items: flex-end;
+  justify-content: end;
+  width: 30%;
+}
+
+.bottomRightSide img {
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Change the default color of navbar links */
+.navbar-custom .navbar-nav .nav-link {
+  color: #ffff; /* Default text color */
+}
+
+/* Change the color of navbar links when hovered */
+.navbar-custom .navbar-nav .nav-link:hover {
+  color: #ff7714; /* Hover text color */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+
+.navbar-custom { /* Navbar menu*/ 
+  background-color: #17167d;
+  position: absolute;
+  z-index: 1000; /* Certifica-se de que a navbar esteja acima de outros elementos */
+  border-bottom-left-radius: 18px;
+  border-bottom-right-radius: 18px;
+  width: 80%;
+}
+
+/* Display dropdown menu on hover */
+.navbar-custom .nav-item.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Remove the arrow from the dropdown toggle */
+.navbar-custom .nav-item.dropdown .nav-link::after {
+  content: none;
+}
+
+/* Remove the arrow from the dropdown toggle for the second dropdown */
+.navbar-custom .nav-item.dropdown:last-child .nav-link::after {
+  content: none;
+}
+
+.navbar-custom a {
+  font-size: larger;
+  font-weight: bold;
+  color: #1d1c7a;
+  text-align: center;
+}
+
+.navbar-custom li :hover {
+  color: #ff7714;
+}
+
+/* Div Main Search */
+.mainSearch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button class form controol Search */
+.mainSearch input {
+  border-top-left-radius: 19px;
+  border-bottom-left-radius: 19px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+
+.mainSearch button {
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 19px;
+  border-bottom-right-radius: 19px;
+  --bs-btn-color: #ff7714;
+  --bs-btn-border-color: #ff7714;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-bg: #fff;
+  --bs-btn-hover-bg: #ff7714;
+  --bs-btn-hover-border-color: #ff7714;
+  --bs-btn-focus-shadow-rgb: 25, 135, 84;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #ff7714;
+  --bs-btn-active-border-color: #ff7714;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #ff7714;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #ff7714;
+  --bs-gradient: none;
+}
+
+.carousel {
+  margin-top: -60.81px;
+}
+
+.carousel-control-next img {
+  transform: scale(3) rotate(-90deg);
+}
+
+.carousel-control-prev img {
+  transform: scale(3) rotate(90deg);
+}
+
+.carousel-indicators {
+  margin-bottom: 7rem !important;
+  z-index: 90;
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 900px;
+  height: 900px;
+}
+
+@media (max-width: 1730px) {
+  .carousel {
+    margin-top: -60.8px;
+  }
+
+  .navbar-custom {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1580px) {
+  .carousel {
+    margin-top: -60.8px;
+  }
+
+
+  .navbar-custom {
+    width: 90%;
+  }
+}
+@media (max-width: 1580px) {
+  .navbar-custom {
+    width: 100%;
+  }
+}
+@media (max-width: 1200px) {
+  .bottom {
+    flex-direction: column;
+  }
+
+  .bottomRightSide {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .carousel {
+    margin-top: -56px;
+  }
+  .carousel-item img {
+    width: 100%;
+    max-height: 600px;
+    height: 600px;
+  }
+}
+
+@media (max-width: 750px) {
+
+
+  .carousel-item img {
+    width: 100%;
+    max-height: 450px;
+    height: 450px;
+  }
+}
