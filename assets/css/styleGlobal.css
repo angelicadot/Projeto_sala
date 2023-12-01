@@ -189,9 +189,7 @@
   .carousel {
     margin-top: -60.8px;
   }
-  .cards {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
+
 
   .navbar-custom {
     width: 90%;
@@ -214,9 +212,7 @@
     justify-content: center;
     width: 100%;
   }
-  .cards {
-    grid-template-columns: 1fr 1fr;
-  }
+
 }
 
 @media (max-width: 991px) {
@@ -231,9 +227,7 @@
 }
 
 @media (max-width: 750px) {
-  .cards {
-    grid-template-columns: 1fr;
-  }
+
 
   .carousel-item img {
     width: 100%;
