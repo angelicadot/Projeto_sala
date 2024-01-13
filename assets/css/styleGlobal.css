@@ -169,10 +169,10 @@
   z-index: 90;
 }
 
-.carousel-item img {
+#carouselExampleAutoplaying .carousel-item img {
   width: 100%;
-  max-height: 900px;
-  height: 900px;
+  max-height: 650px;
+  height: 650px;
 }
 
 @media (max-width: 1730px) {
